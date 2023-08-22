@@ -1,0 +1,11 @@
+      version: 'v2.20.2'
+
+      services:
+        database:
+          image: postgres:latest
+          ports:
+            - 6543:5432
+          environment:
+            POSTGRES_USER: postgres
+            POSTGRES_PASSWORD: Wertyrwer1
+            POSTGRES_DB: banking
